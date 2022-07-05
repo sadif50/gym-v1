@@ -1,0 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+.navbar {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.navbar .brand-name h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    border-right: 0.1em solid #FF8D8D;
+    white-space: nowrap;
+    letter-spacing: .4rem;
+}
+.navbar .nav-item ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.navbar .nav-item ul li {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.navbar .nav-item ul li:hover {
+    color: rgb(219, 19, 19);
+}
+.home-section {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.home-text {
+    width: 55%;
+    padding: 150px 0 100px 0;
+}
+.home-img {
+    width: 40%;
+}
+.home-text .intro-text {
+    font-size: 24px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.home-text .head-text {
+    font-size: 60px;
+}
+.home-text .main-text {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgb(116, 115, 114);
+}
+.link-btn {
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid red;
+    color: #fff;
+    padding: 20px 40px;
+    transition: 0.3s;
+    display: inline-block;
+}
+.link-btn:hover {
+    color: red;
+    background-color: #fff;
+}
